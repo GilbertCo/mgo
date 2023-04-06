@@ -1,0 +1,276 @@
+/*============================================================
+
+                    Bootstrap 3 media queries   
+
+=============================================================*/
+
+/* Large Devices ( Laptop & Desktop ) */
+@media(min-width: 1200px){
+    /* ok */
+    }
+
+/* Medium deices (Lanscape tablets and medium desktops ) */
+@media(min-width: 801px) and ( max-width: 996px){
+
+    /* mobile menu */
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(225, 225, 225, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: left;
+        /* margin-top: 7.5px; */
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .gilbert-codes-nav-wrapper {
+        padding: 0;
+    }
+    }
+
+/* Small Devices(potrait tablets and small desktops ) */
+@media(min-width: 768px) and (max-width: 800px){
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(225, 225, 225, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+
+    /* Mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+        /* margin-top: 7.5px; */
+    }
+    .gilbert-codes-nav-wrapper {
+        padding: 0;
+    }
+
+    /* Services item for small screen devices */
+
+    .services-item {
+        padding: 17px 0 17px 0;
+        margin-bottom: 17px;
+        cursor: pointer;
+    }
+    .services-item-icon i {
+        color: #000000;
+        float: left;
+        padding: 12px;
+        margin-right: 20px;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+    }
+    .services-item:hover .services-item-icon i {
+        color: #fff;
+        background-color: #4d4c4d;
+    }
+    .services-item-title h3 {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 0 5px 0;
+    }
+    .services-item-desc p {
+        margin: 0;
+        padding-left: 50px;
+    }
+
+    /* About - remove diagonal border */
+
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        height: 350px;
+        width: 100%;
+
+    }
+    #about-content-box {
+        height: 350px;
+        width: 100%;
+
+    }
+
+    /* About h3 small devices */
+
+    .about-content-box-small {
+        padding: 60px 0 60px 0;
+    }
+
+    /* Footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+    }
+
+/* Extra small deices ( Potrait phones and Landscape tablets ) */
+@media(max-width: 767px) {
+
+/* Mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+        /* margin-top: 7.5px; */
+    }
+    .gilbert-codes-nav-wrapper {
+        padding: 0;
+    }
+
+    /* Home heading */
+
+    #home-heading h3 {
+        font-size: 24px;
+    }
+
+    /* Buttons */
+
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+     /* About - remove diagonal border */
+
+     #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        height: 350px;
+        width: 100%;
+
+    }
+    #about-content-box {
+        height: 350px;
+        width: 100%;
+
+    }
+
+/* About h3 Extra small devices ( 767px ) */
+
+.about-content-box-small {
+    padding: 60px 0 60px 0;
+}
+
+/* Influencers */
+.img-wrapper {
+    min-width: 100%;
+}
+
+/* Testinonial */
+
+.testimonial blockquote {
+    padding: 6px 50px;
+}
+.testimonial blockquote:before {
+    left: 10px;
+}
+.testimonial blockquote:after {
+    right: 20px;
+}
+.testimonial blockquote::before {
+    content: "\201C";
+    top: -19px;
+
+}
+.testimonial blockquote::after {
+    content: "\201D";
+    bottom: -6px;
+    }
+    .testimonial blockquote p{
+font-size: 16px;
+    }
+}
+.stats-item{
+    padding: 20px 0;
+}
+ /* Footer */
+ #footer-copyrights {
+    text-align: center;
+}
+/* Extra small deices ( Potrait phones and Smaller ) */
+@media(max-width: 480px) {
+      
+/* Ok */
+
+    }
+
+/* Extra small deices ( Smaller ) */
+@media(max-width: 320px) {
+    
+    .testimonial img {
+        max-width: 80px;
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
